@@ -1,0 +1,19 @@
+var altura, massa, imc;
+
+altura = parseFloat(prompt("Digite a sua altura: "));
+
+massa = parseFloat(prompt("Digite o seu peso: "));
+
+imc = massa / Math.pow(altura,2);
+
+if (imc > 24.9){
+
+    alert("Abaixo");
+
+}
+
+else{
+
+  alert("Normal");
+
+}
